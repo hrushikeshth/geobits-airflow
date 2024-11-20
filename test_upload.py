@@ -35,7 +35,7 @@ def create_table_in_athena():
         query_context={"Database": "analytics_dbt"},  # Specify the Glue database where the table should be created
         result_configuration={"OutputLocation": "s3://athenadb2/results/"}  # Path for Athena query results
     )
-    print(f"Athena query executed successfully.")
+    print(f"Athena query executed successfully. Query ID: {query_id}")
 
 
 if __name__ == "__main__":
