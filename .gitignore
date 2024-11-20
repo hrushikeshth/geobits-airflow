@@ -1,0 +1,12 @@
+aws_cred.txt
+help.py
+region.csv
+test_upload.py
+__pycache__
+*.pyc
+.env
+airflow_env/
+airflow/logs/
+.idea/
+.vscode/
+.DS_Store
